@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.shardingsphere</groupId>
         <artifactId>sharding-jdbc-example</artifactId>
-        <version>4.0.0.M1-SNAPSHOT</version>
+        <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
     <artifactId>spring-boot-orche-example</artifactId>
     <packaging>pom</packaging>
@@ -18,7 +18,7 @@
     
     <dependencies>
         <dependency>
-            <groupId>io.shardingsphere</groupId>
+            <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
@@ -26,7 +26,7 @@
             <artifactId>sharding-orchestration-reg-zookeeper-curator</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.shardingsphere</groupId>
+            <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-transaction-spring-boot-starter</artifactId>
         </dependency>
         <!--<dependency>-->
