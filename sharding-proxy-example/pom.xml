@@ -18,7 +18,7 @@
     
     <dependencies>
         <dependency>
-            <groupId>io.shardingsphere</groupId>
+            <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-transaction-spring-boot-starter</artifactId>
         </dependency>
     </dependencies>

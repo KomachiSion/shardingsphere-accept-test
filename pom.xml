@@ -77,32 +77,32 @@
                 <version>${project.parent.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-spring-namespace</artifactId>
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-jdbc-orchestration-spring-namespace</artifactId>
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-transaction-spring</artifactId>
                 <version>${project.parent.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>sharding-transaction-spring-boot-starter</artifactId>
                 <version>${project.parent.version}</version>
             </dependency>
