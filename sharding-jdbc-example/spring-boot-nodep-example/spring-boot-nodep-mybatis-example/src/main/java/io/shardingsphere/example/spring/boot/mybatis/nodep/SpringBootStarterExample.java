@@ -17,34 +17,18 @@
 
 package io.shardingsphere.example.spring.boot.mybatis.nodep;
 
-import io.shardingsphere.example.repository.api.senario.AnnotationCommonServiceScenario;
-import io.shardingsphere.example.repository.api.service.CommonService;
-import io.shardingsphere.example.repository.mybatis.service.SpringPojoService;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("io.shardingsphere.example.repository.mybatis")
+@ComponentScan("io.shardingsphere.example")
 @MapperScan(basePackages = "io.shardingsphere.example.repository.mybatis.repository")
 @SpringBootApplication(exclude = JtaAutoConfiguration.class)
 public class SpringBootStarterExample {
     
     public static void main(final String[] args) {
-        try (ConfigurableApplicationContext applicationContext = SpringApplication.run(SpringBootStarterExample.class, args)) {
-            process(applicationContext);
-        }
-    }
-    
-    private static void process(final ConfigurableApplicationContext applicationContext) {
-        CommonService commonService = getCommonService(applicationContext);
-        AnnotationCommonServiceScenario scenario = new AnnotationCommonServiceScenario(commonService);
-        scenario.process();
-    }
-    
-    private static CommonService getCommonService(final ConfigurableApplicationContext applicationContext) {
-        return applicationContext.getBean(SpringPojoService.class);
+        SpringApplication.run(SpringBootStarterExample.class, args);
     }
 }

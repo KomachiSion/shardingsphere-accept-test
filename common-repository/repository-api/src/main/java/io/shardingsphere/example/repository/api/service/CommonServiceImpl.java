@@ -77,7 +77,8 @@ public abstract class CommonServiceImpl implements CommonService {
         throw new RuntimeException("Exception occur for transaction test.");
     }
     
-    private List<Long> insertData() {
+    @Override
+    public List<Long> insertData() {
         System.out.println("---------------------------- Insert Data ----------------------------");
         List<Long> result = new ArrayList<>(10);
         for (int i = 1; i <= 10; i++) {
