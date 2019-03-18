@@ -24,12 +24,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/jdbc/xa")
-public final class XAController {
+public final class XATransactionController {
     
     private final XATransactionalService xaTransactionalService;
     
     @Autowired
-    public XAController(final XATransactionalService xaTransactionalService) {
+    public XATransactionController(final XATransactionalService xaTransactionalService) {
         this.xaTransactionalService = xaTransactionalService;
     }
     
