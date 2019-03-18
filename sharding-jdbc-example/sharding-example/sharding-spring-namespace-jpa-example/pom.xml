@@ -8,7 +8,7 @@
         <artifactId>sharding-example</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>sharding-spring-namespace-boot-example</artifactId>
+    <artifactId>sharding-spring-namespace-jpa-example</artifactId>
     
     <dependencies>
         <dependency>
