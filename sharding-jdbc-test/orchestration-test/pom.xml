@@ -25,7 +25,7 @@
         <artifactId>sharding-jdbc-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>orchestration-example</artifactId>
+    <artifactId>orchestration-test</artifactId>
     <packaging>pom</packaging>
 
     <modules>

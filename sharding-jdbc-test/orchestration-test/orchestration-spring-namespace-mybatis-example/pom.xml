@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.shardingsphere</groupId>
-        <artifactId>orchestration-example</artifactId>
+        <artifactId>orchestration-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
     <artifactId>orchestrtion-spring-namespace-mybatis-example</artifactId>
