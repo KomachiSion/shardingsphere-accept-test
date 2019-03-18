@@ -29,7 +29,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-orche-jpa-example</module>
+        <module>orchestration-spring-boot-jpa-example</module>
         <module>spring-namespace-orche-mybatis-example</module>
     </modules>
 </project>
