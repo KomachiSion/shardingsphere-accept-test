@@ -19,6 +19,7 @@
         <module>spring-namespace-nodep-example</module>
         <module>spring-namespace-orche-example</module>
         <module>sharding-example</module>
+        <module>orchestration-example</module>
     </modules>
 
     <dependencies>
