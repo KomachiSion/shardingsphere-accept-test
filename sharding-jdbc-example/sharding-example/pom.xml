@@ -30,7 +30,7 @@
 
     <modules>
         <module>sharding-spring-boot-mybatis-example</module>
-        <module>spring-namespace-nodep-jpa-example</module>
+        <module>sharding-spring-namespace-boot-example</module>
     </modules>
 
 

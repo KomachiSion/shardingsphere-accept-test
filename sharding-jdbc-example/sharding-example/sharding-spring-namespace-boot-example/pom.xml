@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.shardingsphere</groupId>
-        <artifactId>spring-namespace-nodep-example</artifactId>
+        <artifactId>sharding-example</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>spring-namespace-nodep-jpa-example</artifactId>
+    <artifactId>sharding-spring-namespace-boot-example</artifactId>
     
     <dependencies>
         <dependency>
