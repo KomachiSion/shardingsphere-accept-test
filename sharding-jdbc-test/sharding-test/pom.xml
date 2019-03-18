@@ -22,15 +22,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.shardingsphere</groupId>
-        <artifactId>sharding-jdbc-test</artifactId>
+        <artifactId>sharding-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
     <artifactId>sharding-example</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>sharding-spring-boot-mybatis-example</module>
-        <module>sharding-spring-namespace-jpa-example</module>
+        <module>sharding-spring-boot-mybatis-test</module>
+        <module>sharding-spring-namespace-jpa-test</module>
     </modules>
 
 

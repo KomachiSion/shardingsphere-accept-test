@@ -8,11 +8,11 @@
         <artifactId>shardingsphere-accept-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>sharding-jdbc-test</artifactId>
+    <artifactId>sharding-test</artifactId>
     <packaging>pom</packaging>
     
     <modules>
-        <module>sharding-example</module>
+        <module>sharding-test</module>
         <module>orchestration-test</module>
         <module>jdbc-performance-test</module>
     </modules>
