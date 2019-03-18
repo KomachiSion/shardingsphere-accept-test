@@ -13,7 +13,6 @@
     
     <modules>
         <module>spring-boot-nodep-jpa-example</module>
-        <module>spring-boot-nodep-mybatis-example</module>
     </modules>
     
     <dependencies>
