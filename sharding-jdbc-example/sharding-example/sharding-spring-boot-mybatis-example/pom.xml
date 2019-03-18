@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.shardingsphere</groupId>
-        <artifactId>spring-boot-nodep-example</artifactId>
+        <artifactId>sharding-example</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>spring-boot-nodep-mybatis-example</artifactId>
+    <artifactId>sharding-spring-boot-mybatis-example</artifactId>
     
     <dependencies>
         <dependency>
