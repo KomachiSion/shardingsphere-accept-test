@@ -13,6 +13,7 @@
         <module>example-utility</module>
         <module>sharding-jdbc-example</module>
         <module>sharding-proxy-example</module>
+        <module>common-spring-component</module>
     </modules>
     
     <properties>
