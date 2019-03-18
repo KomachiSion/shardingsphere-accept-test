@@ -12,7 +12,6 @@
     <packaging>pom</packaging>
     
     <modules>
-        <module>spring-namespace-nodep-jpa-example</module>
         <module>spring-namespace-nodep-mybatis-example</module>
     </modules>
     

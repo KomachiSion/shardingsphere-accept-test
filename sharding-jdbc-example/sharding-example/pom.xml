@@ -30,6 +30,7 @@
 
     <modules>
         <module>spring-boot-nodep-mybatis-example</module>
+        <module>spring-namespace-nodep-jpa-example</module>
     </modules>
 
 
