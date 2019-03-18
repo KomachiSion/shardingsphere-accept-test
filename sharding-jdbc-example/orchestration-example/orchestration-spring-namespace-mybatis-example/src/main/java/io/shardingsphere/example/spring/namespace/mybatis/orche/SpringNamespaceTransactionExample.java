@@ -48,15 +48,15 @@ public class SpringNamespaceTransactionExample {
     private static String getApplicationFilePrecise() {
         switch (shardingType) {
             case SHARDING_DATABASES:
-                return String.format("META-INF/%s/%s/application-sharding-databases-precise.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
+                return String.format("META-INF/%s/%s/application-sharding-databases.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
             case SHARDING_TABLES:
-                return String.format("META-INF/%s/%s/application-sharding-tables-precise.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
+                return String.format("META-INF/%s/%s/application-sharding-tables.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
             case SHARDING_DATABASES_AND_TABLES:
-                return String.format("META-INF/%s/%s/application-sharding-databases-tables-precise.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
+                return String.format("META-INF/%s/%s/application-sharding-databases-tables.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
             case MASTER_SLAVE:
                 return String.format("META-INF/%s/%s/application-master-slave.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
             case SHARDING_MASTER_SLAVE:
-                return String.format("META-INF/%s/%s/application-sharding-master-slave-precise.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
+                return String.format("META-INF/%s/%s/application-sharding-master-slave.xml", registryCenterType.name().toLowerCase(), loadConfigFromRegCenter ? "cloud" : "local");
             default:
                 throw new UnsupportedOperationException(shardingType.name());
         }
