@@ -30,6 +30,6 @@
 
     <modules>
         <module>orchestration-spring-boot-jpa-example</module>
-        <module>spring-namespace-orche-mybatis-example</module>
+        <module>orchestration-spring-namespace-mybatis-example</module>
     </modules>
 </project>
