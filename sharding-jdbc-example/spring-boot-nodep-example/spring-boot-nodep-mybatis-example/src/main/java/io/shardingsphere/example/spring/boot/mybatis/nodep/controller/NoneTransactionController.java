@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/jdbc/local")
+@RequestMapping(value = "/jdbc/autocommit")
 public final class NoneTransactionController {
     
     private final NoneTransactionalService noneTransactionalService;
@@ -37,7 +37,7 @@ public final class NoneTransactionController {
      * XA insert commit.
      * @return string
      */
-    @RequestMapping(value = "/insert/commit")
+    @RequestMapping(value = "/insert")
     public String insertCommit() {
         noneTransactionalService.insertSuccess();
         return "commit";
