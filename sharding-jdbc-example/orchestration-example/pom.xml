@@ -26,8 +26,10 @@
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
     <artifactId>orchestration-example</artifactId>
+    <packaging>pom</packaging>
 
-
-
-
+    <modules>
+        <module>spring-namespace-orche-mybatis-example</module>
+        <module>spring-boot-orche-jpa-example</module>
+    </modules>
 </project>
