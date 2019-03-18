@@ -14,6 +14,7 @@
     <modules>
         <module>sharding-example</module>
         <module>orchestration-example</module>
+        <module>jdbc-performance-test-example</module>
     </modules>
 
     <dependencies>
