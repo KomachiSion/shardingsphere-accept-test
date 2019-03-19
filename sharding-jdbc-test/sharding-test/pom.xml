@@ -22,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.shardingsphere</groupId>
-        <artifactId>sharding-test</artifactId>
+        <artifactId>sharding-jdbc-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>sharding-example</artifactId>
+    <artifactId>sharding-test</artifactId>
     <packaging>pom</packaging>
 
     <modules>
