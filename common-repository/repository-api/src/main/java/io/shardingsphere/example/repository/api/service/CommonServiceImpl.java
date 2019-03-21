@@ -38,7 +38,7 @@ public abstract class CommonServiceImpl implements CommonService {
     }
     
     @Override
-    public final void initEnvironment() {
+    public void initEnvironment() {
         getOrderRepository().createTableIfNotExists();
         getOrderItemRepository().createTableIfNotExists();
         getOrderRepository().truncateTable();
@@ -46,7 +46,7 @@ public abstract class CommonServiceImpl implements CommonService {
     }
     
     @Override
-    public final void cleanEnvironment() {
+    public void cleanEnvironment() {
         getOrderRepository().dropTable();
         getOrderItemRepository().dropTable();
     }

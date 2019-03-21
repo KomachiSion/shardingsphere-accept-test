@@ -91,7 +91,7 @@ public abstract class ShardingProxyTransactionService extends CommonServiceImpl 
     }
     
     @Override
-    public final void printTransactionType() {
+    public void printTransactionType() {
         System.out.println(String.format("-------------- Process With Transaction %s ---------------", getTransactionTypeRepository().showTransactionType()));
     }
     

@@ -91,7 +91,7 @@ public abstract class ShardingJDBCTransactionService extends CommonServiceImpl i
     }
     
     @Override
-    public final void printTransactionType() {
+    public void printTransactionType() {
         System.out.println(String.format("-------------- Process With Transaction %s ---------------", TransactionTypeHolder.get()));
     }
 }
