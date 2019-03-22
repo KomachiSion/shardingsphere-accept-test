@@ -32,7 +32,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
-@ActiveProfiles("cloud-zookeeper-sharding-databases-tables")
+@ActiveProfiles("cloud-etcd-sharding-databases-tables")
 public class SpringBootCloudShardingDatabasesTablesTest extends SpringBootBaseTest {
 
     @Autowired

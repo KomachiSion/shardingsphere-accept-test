@@ -32,7 +32,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
-@ActiveProfiles("cloud-zookeeper-sharding-master-slave")
+@ActiveProfiles("cloud-etcd-sharding-master-slave")
 public class SpringBootCloudShardingMasterSlaveTest extends SpringBootBaseTest {
 
     @Autowired
