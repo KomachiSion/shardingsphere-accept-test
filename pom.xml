@@ -22,7 +22,8 @@
         <project.build.locale>zh_CN</project.build.locale>
         
         <sharding-sphere.version>4.0.0-RC1-SNAPSHOT</sharding-sphere.version>
-    
+        <sharding-sphere.spi.impl.version>4.0.0-RC1-SNAPSHOT</sharding-sphere.spi.impl.version>
+
         <aspectjweaver.version>1.8.9</aspectjweaver.version>
         <spring-framework.version>4.3.20.RELEASE</spring-framework.version>
         <spring-boot.version>1.5.17.RELEASE</spring-boot.version>
@@ -112,9 +113,9 @@
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.shardingsphere</groupId>
+                <groupId>io.shardingsphere</groupId>
                 <artifactId>sharding-orchestration-reg-etcd</artifactId>
-                <version>${sharding-sphere.version}</version>
+                <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.shardingsphere</groupId>
