@@ -32,8 +32,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
-@ActiveProfiles("local-zookeeper-sharding-databases")
-public class SpringBootLocalZookeeperShardingDatabasesTest extends SpringBootBaseTest {
+@ActiveProfiles("cloud-zookeeper-sharding-databases-tables")
+public class SpringBootCloudShardingDatabasesTablesTest extends SpringBootBaseTest {
 
     @Autowired
     private SpringEntityService commonService;
@@ -46,7 +46,7 @@ public class SpringBootLocalZookeeperShardingDatabasesTest extends SpringBootBas
     public void assertCommonService() {
         JPACommonServiceScenario scenario = new JPACommonServiceScenario(commonService);
         scenario.process();
-        SpringResultAssertUtils.assertShardingDatabaseResult(commonService);
+        SpringResultAssertUtils.assertShardingDatabaseAndTableResult(commonService);
     }
     
     @Test

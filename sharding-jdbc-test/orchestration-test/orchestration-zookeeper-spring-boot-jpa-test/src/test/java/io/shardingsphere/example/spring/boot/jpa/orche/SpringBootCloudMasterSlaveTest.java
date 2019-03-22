@@ -33,7 +33,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
 @ActiveProfiles("cloud-zookeeper-master-slave")
-public class SpringBootCloudZookeeperMasterSlaveTest extends SpringBootBaseTest {
+public class SpringBootCloudMasterSlaveTest extends SpringBootBaseTest {
 
     @Autowired
     private SpringEntityService commonService;

@@ -33,7 +33,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
 @ActiveProfiles("local-zookeeper-sharding-tables")
-public class SpringBootLocalZookeeperShardingTablesTest extends SpringBootBaseTest {
+public class SpringBootLocalShardingTablesTest extends SpringBootBaseTest {
 
     @Autowired
     private SpringEntityService commonService;

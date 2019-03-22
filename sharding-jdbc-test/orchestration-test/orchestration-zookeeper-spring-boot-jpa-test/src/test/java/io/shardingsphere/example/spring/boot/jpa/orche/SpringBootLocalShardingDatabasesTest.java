@@ -32,8 +32,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
-@ActiveProfiles("cloud-zookeeper-sharding-databases")
-public class SpringBootCloudZookeeperShardingDatabasesTest extends SpringBootBaseTest {
+@ActiveProfiles("local-zookeeper-sharding-databases")
+public class SpringBootLocalShardingDatabasesTest extends SpringBootBaseTest {
 
     @Autowired
     private SpringEntityService commonService;

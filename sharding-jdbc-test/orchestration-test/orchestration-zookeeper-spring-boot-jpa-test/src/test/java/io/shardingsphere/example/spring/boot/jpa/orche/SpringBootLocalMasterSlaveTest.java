@@ -32,15 +32,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
-@ActiveProfiles("local-zookeeper-sharding-master-slave")
-public class SpringBootLocalZookeeperShardingMasterSlaveTest extends SpringBootBaseTest {
-
+@ActiveProfiles("local-zookeeper-master-slave")
+public class SpringBootLocalMasterSlaveTest extends SpringBootBaseTest {
+    
     @Autowired
     private SpringEntityService commonService;
     
     @Autowired
     @Qualifier("jdbcTransactionService")
     private SpringEntityTransactionService transactionService;
+    
     
     @Test
     public void assertCommonService() {

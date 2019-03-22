@@ -33,7 +33,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootTestMain.class)
 @ActiveProfiles("cloud-zookeeper-sharding-tables")
-public class SpringBootCloudZookeeperShardingTablesTest extends SpringBootBaseTest {
+public class SpringBootCloudShardingTablesTest extends SpringBootBaseTest {
 
     @Autowired
     private SpringEntityService commonService;
