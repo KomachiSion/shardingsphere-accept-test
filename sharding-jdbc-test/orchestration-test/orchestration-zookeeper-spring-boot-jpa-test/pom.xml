@@ -8,7 +8,7 @@
         <artifactId>orchestration-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>orchestration-spring-boot-jpa-test</artifactId>
+    <artifactId>orchestration-zookeeper-spring-boot-jpa-test</artifactId>
     
     <dependencies>
         <dependency>
