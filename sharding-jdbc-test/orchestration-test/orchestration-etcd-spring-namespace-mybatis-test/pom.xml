@@ -25,23 +25,27 @@
         <artifactId>orchestration-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>orchestration-etcd-spring-boot-jpa-test</artifactId>
+    <artifactId>orchestration-etcd-spring-namespace-mybatis-test</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>io.shardingsphere</groupId>
-            <artifactId>jpa-repository</artifactId>
+            <artifactId>mybatis-repository</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.shardingsphere</groupId>
+            <artifactId>example-utility</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
-            <artifactId>sharding-transaction-spring-boot-starter</artifactId>
+            <artifactId>sharding-jdbc-spring-namespace</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
-            <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>
+            <artifactId>sharding-jdbc-orchestration-spring-namespace</artifactId>
         </dependency>
         <dependency>
             <groupId>io.shardingsphere</groupId>
@@ -49,17 +53,22 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>
