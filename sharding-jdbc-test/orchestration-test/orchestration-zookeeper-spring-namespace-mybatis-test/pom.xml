@@ -8,7 +8,7 @@
         <artifactId>orchestration-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-    <artifactId>orchestration-spring-namespace-mybatis-test</artifactId>
+    <artifactId>orchestration-zookeeper-spring-namespace-mybatis-test</artifactId>
     
     <dependencies>
         <dependency>
