@@ -31,5 +31,6 @@
     <modules>
         <module>orchestration-spring-boot-jpa-test</module>
         <module>orchestration-spring-namespace-mybatis-test</module>
+        <module>orchestration-etcd-spring-boot-jpa-test</module>
     </modules>
 </project>
