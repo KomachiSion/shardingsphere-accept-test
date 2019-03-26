@@ -31,7 +31,7 @@ public final class JDBCController {
     private final SpringPojoService springPojoService;
     
     @Autowired
-    private DataSource shardingDataSource;
+    private DataSource dataSource;
     
     @Autowired
     public JDBCController(final SpringPojoService springPojoService) {
