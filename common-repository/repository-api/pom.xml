@@ -12,7 +12,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.shardingsphere</groupId>
+            <groupId>io.shardingsphere</groupId>
             <artifactId>sharding-transaction-spring</artifactId>
         </dependency>
         <dependency>

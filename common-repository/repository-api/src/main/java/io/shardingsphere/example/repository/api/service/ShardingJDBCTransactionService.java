@@ -17,7 +17,7 @@
 
 package io.shardingsphere.example.repository.api.service;
 
-import org.apache.shardingsphere.transaction.annotation.ShardingTransactionType;
+import io.shardingsphere.transaction.annotation.ShardingTransactionType;
 import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.apache.shardingsphere.transaction.core.TransactionTypeHolder;
 import org.springframework.transaction.annotation.Transactional;

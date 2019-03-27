@@ -18,7 +18,7 @@
 package io.shardingsphere.example.jdbc.performance.test.service;
 
 import io.shardingsphere.example.repository.mybatis.service.SpringPojoService;
-import org.apache.shardingsphere.transaction.annotation.ShardingTransactionType;
+import io.shardingsphere.transaction.annotation.ShardingTransactionType;
 import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
