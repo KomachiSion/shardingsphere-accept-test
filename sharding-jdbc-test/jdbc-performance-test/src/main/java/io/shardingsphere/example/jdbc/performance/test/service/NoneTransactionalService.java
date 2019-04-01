@@ -18,11 +18,8 @@
 package io.shardingsphere.example.jdbc.performance.test.service;
 
 import io.shardingsphere.example.repository.mybatis.service.SpringPojoService;
-import io.shardingsphere.transaction.annotation.ShardingTransactionType;
-import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
 @Component
 public class NoneTransactionalService {
@@ -37,8 +34,6 @@ public class NoneTransactionalService {
     /**
      * process success, XA transaction will be committed.
      */
-    @ShardingTransactionType(TransactionType.BASE)
-    @Transactional
     public void insertSuccess() {
         springPojoService.insertData();
     }
@@ -46,8 +41,6 @@ public class NoneTransactionalService {
     /**
      * process failure, XA transaction will be rollback.
      */
-    @ShardingTransactionType(TransactionType.BASE)
-    @Transactional
     public void insertFailure() {
         springPojoService.insertData();
         throw new RuntimeException("process failure exception");
