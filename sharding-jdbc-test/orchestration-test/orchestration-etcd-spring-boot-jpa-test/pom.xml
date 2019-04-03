@@ -25,9 +25,8 @@
         <artifactId>orchestration-test</artifactId>
         <version>4.0.0-RC1-SNAPSHOT</version>
     </parent>
-
     <artifactId>orchestration-etcd-spring-boot-jpa-test</artifactId>
-
+    
     <dependencies>
         <dependency>
             <groupId>io.shardingsphere</groupId>

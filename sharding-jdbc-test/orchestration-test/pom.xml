@@ -31,7 +31,7 @@
     <modules>
         <module>orchestration-zookeeper-spring-boot-jpa-test</module>
         <module>orchestration-zookeeper-spring-namespace-mybatis-test</module>
-        <!--<module>orchestration-etcd-spring-boot-jpa-test</module>-->
-        <!--<module>orchestration-etcd-spring-namespace-mybatis-test</module>-->
+        <module>orchestration-etcd-spring-boot-jpa-test</module>
+        <module>orchestration-etcd-spring-namespace-mybatis-test</module>
     </modules>
 </project>
