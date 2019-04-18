@@ -154,7 +154,18 @@
             </dependency>
             <dependency>
                 <groupId>io.shardingsphere</groupId>
-                <artifactId>sharding-transaction-spring</artifactId>
+                <artifactId>sharding-transaction-jdbc-spring</artifactId>
+                <version>${sharding-sphere.spi.impl.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.shardingsphere</groupId>
+                <artifactId>sharding-transaction-proxy-spring</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
                 <exclusions>
                     <exclusion>
