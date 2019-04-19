@@ -176,7 +176,18 @@
             </dependency>
             <dependency>
                 <groupId>io.shardingsphere</groupId>
-                <artifactId>sharding-transaction-spring-boot-starter</artifactId>
+                <artifactId>sharding-transaction-jdbc-spring-boot-starter</artifactId>
+                <version>${sharding-sphere.spi.impl.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.shardingsphere</groupId>
+                <artifactId>sharding-transaction-proxy-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
                 <exclusions>
                     <exclusion>
